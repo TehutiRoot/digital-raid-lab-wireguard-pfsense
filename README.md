@@ -65,3 +65,10 @@ Planned additions:
 Aniwat Samatiwat  
 Cyber & Infrastructure Specialist – digital forensics, network forensics, VPN & zero‑trust architectures, and blockchain‑based asset tracing.
 
+## Related Projects in this Series
+
+- **NetBird ZTNA Overlay Lab**  
+  Cloud-hosted NetBird control plane with pfSense as an edge router, providing identity-aware access to internal subnets behind CGNAT.  
+  Repo: https://github.com/TehutiRoot/netbird-ztna-overlay-lab
+
+
