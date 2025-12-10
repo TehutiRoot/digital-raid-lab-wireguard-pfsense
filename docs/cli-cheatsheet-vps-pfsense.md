@@ -140,8 +140,4 @@ undefined
 
 For day‑to‑day operations and troubleshooting commands, see  
 `docs/cli-cheatsheet-vps-pfsense.md`.
-
-
-text
-For useful verification and troubleshooting commands, see  
 `docs/cli-cheatsheet-netbird.md`.
