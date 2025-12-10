@@ -1,0 +1,11 @@
+<134>2025-01-10 10:15:23 pfSense.example.com filterlog[12345]: 100,,,wg0,match,pass,in,4,0x0,0,0,0,UDP,60,203.0.113.10,10.100.0.2,51820,51820,60
+<134>2025-01-10 10:15:24 pfSense.example.com filterlog[12345]: 101,,,wg0,match,pass,out,4,0x0,0,0,0,UDP,60,10.100.0.2,203.0.113.10,51820,51820,60
+
+<134>2025-01-10 10:16:01 pfSense.example.com filterlog[12346]: 110,,,wg0,match,pass,in,4,0x0,0,0,0,TCP,60,10.10.10.20,10.100.0.1,443,54532,60
+<134>2025-01-10 10:16:01 pfSense.example.com filterlog[12346]: 111,,,lan,match,pass,out,4,0x0,0,0,0,TCP,60,10.10.10.20,10.100.0.1,443,54532,60
+
+<134>2025-01-10 10:16:05 pfSense.example.com filterlog[12347]: 120,,,wg0,match,block,in,4,0x0,0,0,0,TCP,60,10.100.0.1,10.10.10.30,8443,51234,60
+<134>2025-01-10 10:16:10 pfSense.example.com filterlog[12347]: 121,,,wg0,match,pass,in,4,0x0,0,0,0,TCP,60,10.100.0.1,10.10.10.30,8443,51234,60
+
+<134>2025-01-10 10:17:42 pfSense.example.com filterlog[12348]: 130,,,wg0,match,pass,in,4,0x0,0,0,0,ICMP,84,10.100.0.1,10.10.10.1,8,0,seq=1000
+<134>2025-01-10 10:17:42 pfSense.example.com filterlog[12348]: 131,,,lan,match,pass,out,4,0x0,0,0,0,ICMP,84,10.10.10.1,10.100.0.1,0,0,seq=1000
