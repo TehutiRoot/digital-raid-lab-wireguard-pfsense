@@ -1,0 +1,14 @@
+# Example WireGuard config for a remote client
+# that needs access through the VPS to the home network.
+
+[Interface]
+Address    = 10.200.0.10/32
+PrivateKey = <REDACTED_REMOTE_CLIENT_PRIVATE_KEY>
+DNS        = 10.10.10.1  # e.g. pfSense or Pi-hole in the home network
+
+[Peer]
+# VPS as entry point
+PublicKey  = <VPS_PUBLIC_KEY_PLACEHOLDER>
+Endpoint   = 203.0.113.10:51820
+AllowedIPs = 10.10.10.0/24, 10.200.0.0/24
+PersistentKeepalive = 25
