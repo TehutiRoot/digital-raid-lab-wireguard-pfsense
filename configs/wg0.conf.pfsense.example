@@ -1,0 +1,13 @@
+# Example WireGuard config for pfSense / home gateway
+# Used to connect a CGNAT'd network to the VPS.
+
+[Interface]
+Address    = 10.100.0.2/32
+PrivateKey = <REDACTED_PFSENSE_PRIVATE_KEY>
+
+[Peer]
+# VPS endpoint (public IP on OCI or other provider)
+PublicKey         = <VPS_PUBLIC_KEY_PLACEHOLDER>
+Endpoint          = 203.0.113.10:51820
+AllowedIPs        = 10.100.0.1/32, 10.10.10.0/24
+PersistentKeepalive = 25
